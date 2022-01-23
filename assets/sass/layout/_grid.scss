@@ -1,0 +1,46 @@
+.grid-container {
+  background-color     : turquoise;
+  display              : grid;
+  margin               : 0 auto;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.header {
+  grid-column: 1/-1;
+
+  &__title {
+    background-color: red;
+    text-align      : center;
+    height          : 30px;
+  }
+}
+
+.article {
+  grid-column: 3/11;
+
+  &__title {
+    background-color: purple;
+    text-align      : center;
+    height          : 50px;
+  }
+}
+
+.aside {
+  grid-column: 4/8;
+
+  &__title {
+    background-color: yellow;
+    text-align      : center;
+    height          : 60px;
+  }
+}
+
+.footer {
+  grid-column: 2/5;
+
+  &__title {
+    background-color: green;
+    text-align      : center;
+    height          : 80px;
+  }
+}

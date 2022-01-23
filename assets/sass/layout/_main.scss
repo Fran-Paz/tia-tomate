@@ -1,0 +1,136 @@
+// BODY
+body {
+  margin: 0;
+}
+
+.main_content {
+  font-family: $ff;
+  margin: 0;
+}
+
+.header_section {
+  background-color: #e56353;
+  color: #fff;
+  text-align: center;
+  font-size: $x-large;
+  display: block;
+  padding-top: 5em;
+  margin-top: 4rem;
+
+  &__title {
+    font-weight: $extra-light;
+    margin: 0;
+  }
+  &__subtitle {
+    font-weight: $bold;
+    display: block;
+    padding-bottom: 5em;
+  }
+}
+
+.main_section_products {
+  background-color: $granite-gray;
+  color: $white;
+  padding: 8em;
+
+  &__image {
+    max-width: 100%;
+    padding-bottom: 2em;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: $bold;
+    font-size: $large;
+  }
+
+  &__text {
+    margin: {
+      left: auto;
+      right: auto;
+    }
+    max-width: 700px;
+  }
+}
+
+.product {
+  background-color: $white;
+  color: $granite-gray;
+  padding: 6em;
+
+  &__image {
+    max-width: 100%;
+    padding-bottom: 1em;
+  }
+  &__title {
+    text-align: center;
+    font-weight: $bold;
+    font-size: $large;
+  }
+
+  &__text {
+    margin: {
+      left: auto;
+      right: auto;
+    }
+    max-width: 700px;
+  }
+}
+
+.highlight {
+  background-color: $jelly-bean;
+  color: $white;
+  padding: 3em;
+
+  .content__title {
+    text-align: center;
+    font-weight: $bold;
+    font-size: $x-large;
+  }
+}
+
+.testimony {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.us {
+  color: $granite-gray;
+  &__img {
+    max-width: 100%;
+  }
+
+  &__image-container  {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    text-align: center;
+    font-weight: $bold;
+    font-size: $large;
+  }
+
+  &__text {
+    margin: {
+      left: auto;
+      right: auto;
+    }
+    max-width: 700px;
+    text-align: justify;
+    font-weight: $regular;
+    padding-bottom: 1em;
+  }
+}
+
+.highlight {
+  background-color: #e56353;
+  text-align: center;
+  &__title--text-default {
+    color: $white;
+    text-align: center;
+    font-size: $large;
+    padding-bottom: 0.5em;
+  }
+}
